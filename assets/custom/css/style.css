@@ -1,0 +1,105 @@
+@font-face {
+	font-family: Eurostile;
+	src: url("../fonts/Eurostile.ttf");
+}
+
+body {
+	background-color: #eee;
+}
+
+.logout:hover {
+	cursor: pointer;
+}
+
+.login-button {
+	background-color: #1060D1 !important;
+	border: 1px solid #1060D1 !important;
+	color: #ffff;
+	position: relative;
+}
+
+.login-button:hover {
+	background-color: #064FB6;
+	border: 1px solid #efefef !important;
+	color: #ffff;
+}
+
+.background {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-background {
+	/* Keep the background properties for larger screens */
+	/* background-image: url('../uploads/logo.png');  edit here to add right background*/ 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+	/* Apply different background properties for smaller screens */
+	.right-background {
+		width: 100%;
+		height: auto;
+		margin-top: 0;
+	}
+}
+
+.content {
+	z-index: 1;
+}
+
+.h-custom-2 {
+	margin-top: 200px !important;
+}
+
+/* .login-left{
+	background-color: #1060D1;
+} */
+
+.logo-image {
+	width: 100%;
+	padding-top: 15px;
+}
+
+.card-login {
+	border-radius: 10px;
+}
+
+.candidate-content {
+	width: 100%;
+}
+
+.powered-by {
+	margin-top: 120px;
+	font-family: Eurostile;
+	font-size: 13px;
+	color: #000;
+}
+
+.title {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 20px !important;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #000;
+}
+
+/* select 2 */
+.select2-selection__rendered {
+	line-height: 35px !important;
+}
+
+.select2-container .select2-selection--single {
+	height: 40px !important;
+}
+
+.select2-selection__arrow {
+	height: 38px !important;
+}
+
+.swal2-confirm{
+	background-color: #064FB6 !important;
+}
